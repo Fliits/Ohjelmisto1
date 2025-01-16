@@ -1,0 +1,10 @@
+lukuX_str = input("Anna luku: ")
+lukuX = int(lukuX_str)
+lukuY = int(input("Anna toinen luku: "))
+lukuZ = int(input("Anna kolmas lukku: "))
+summa = lukuX + lukuY + lukuZ
+tulo = lukuX * lukuY * lukuZ
+keskiarvo = summa / 3
+print(f"Summa = {summa}, "
+      f"Tulo = {tulo}, "
+      f"Keskiarvo = {keskiarvo}")
