@@ -1,9 +1,7 @@
 def lasku(nlista):
     karsitut = []
     for n in nlista:
-        if n % 2 != 0:
-            nlista.remove(n)
-        else:
+        if n % 2 == 0:
             karsitut.append(n)
     return karsitut
 
